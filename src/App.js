@@ -109,7 +109,7 @@ function App() {
       //DELETE TASK
       const handleDeleteTask = async (markedtask) => {
         try {       
-            const res = await axios.delete( `${baseUrl}/api/task/${markedtask._id}`) 
+            await axios.delete( `${baseUrl}/api/task/${markedtask._id}`) 
             setTasks( tasks.filter( (task) => {
                 return task._id !== markedtask._id
             } ) )
@@ -124,7 +124,7 @@ function App() {
       //UPDATE TASK STATUS
       const handleUpdateTaskStatus = async (markedtask) => {
         try {       
-            const res = await axios.patch( `${baseUrl}/api/task/status/${markedtask._id}`, null) 
+             await axios.patch( `${baseUrl}/api/task/status/${markedtask._id}`, null) 
             setTasks( tasks.filter( (task) => {
                 if(task._id === markedtask._id){
                    task.status = "done"
