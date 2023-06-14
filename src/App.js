@@ -98,6 +98,7 @@ function App() {
              setDescription("")
              setStartDate("")
              setEndDate("")
+             setUpdateTask({})
            } 
            catch (error) {
              console.log(error)
