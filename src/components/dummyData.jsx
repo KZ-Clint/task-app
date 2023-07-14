@@ -28,7 +28,7 @@ export const sportsNews = [
       category: "sports",
       author: "Clark Ma",
       topstory:true,
-      img:"/assets/manu.webp"
+      img:"/assets/manu.jpg"
    },
    {
        info: "Fred kerley wins the 100m olympic gold in budapest.",
@@ -36,7 +36,7 @@ export const sportsNews = [
        category: "sports",
        author: "Jean Paul Hauge",
        topstory:false,
-       img:"/assets/fkerley.webp"
+       img:"/assets/fkerley.jpg"
     },
     {
        info: "PGA defends choice to back LIV deal in senate housing in senate hearing.",
@@ -44,7 +44,7 @@ export const sportsNews = [
        category: "sports",
        author: "Jay Jay Okocha",
        topstory:false,
-       img:"/assets/pgatour.jpeg"
+       img:"/assets/pgatour.jpg"
     },
     {
        info: "Neeraj Chopra wins the javelin throw in the final throw.",
@@ -60,7 +60,7 @@ export const sportsNews = [
       category: "sports",
       author: "Mc smith",
       topstory:false,
-      img:"/assets/serena.jpeg"
+      img:"/assets/serena.jpg"
    },
    {
       info: "Chaos as talks of super league begins.",
@@ -68,7 +68,7 @@ export const sportsNews = [
       category: "sports",
       author: "John Doe",
       topstory:false,
-      img:"/assets/superleague.webp"
+      img:"/assets/superleague.jpg"
    },
    {
       info: "Lebron James to announce his retirement soon.",
@@ -152,7 +152,7 @@ export const entertainmentNews = [
       category: "entertainment",
       author: "Paul kurukame",
       topstory:false,
-      img:"/assets/blockbuster.webp"
+      img:"/assets/blockbuster.jpg"
    }
     
 ]
@@ -220,7 +220,7 @@ export const businessNews = [
       category: "business",
       author: "Paul kurukame",
       topstory:false,
-      img:"/assets/compfallen.jpeg"
+      img:"/assets/compfallen.jpg"
    }
     
 ]
