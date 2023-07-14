@@ -1,0 +1,109 @@
+.footerwrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 0px;
+    background: #FFFFFF;
+}
+.footerwrapperdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+    gap: 50px;
+}
+.footerwrapperdiv ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+    list-style: none;
+}
+.footerwrapperdiv ul li{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+.followuswrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+
+}
+.followuswrapper p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+.followuswrapper div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+}
+.followuswrapper div img{
+   cursor: pointer;
+}
+.copyrightwrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 5px;
+    border-top: 1px solid rgb(158, 158, 158);
+    width: 100%;
+}
+.copyrightwrapper p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+.link{
+    text-decoration: none;
+
+}
+.followuswrapper div .linkwhatsapp{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+@media screen and (max-width:700px) {  
+   
+    .footerwrapperdiv ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 30px;
+        list-style: none;
+    }
+    .followuswrapper{
+        gap: 20px;
+    }
+    .followuswrapper div{
+        gap: 15px;
+    }
+
+}
