@@ -28,7 +28,7 @@ export const sportsNews = [
       category: "sports",
       author: "Clark Ma",
       topstory:true,
-      img:"./assets/manu.webp"
+      img:"/assets/manu.webp"
    },
    {
        info: "Fred kerley wins the 100m olympic gold in budapest.",
@@ -36,7 +36,7 @@ export const sportsNews = [
        category: "sports",
        author: "Jean Paul Hauge",
        topstory:false,
-       img:"./assets/fkerley.webp"
+       img:"/assets/fkerley.webp"
     },
     {
        info: "PGA defends choice to back LIV deal in senate housing in senate hearing.",
@@ -44,7 +44,7 @@ export const sportsNews = [
        category: "sports",
        author: "Jay Jay Okocha",
        topstory:false,
-       img:"./assets/pgatour.jpeg"
+       img:"/assets/pgatour.jpeg"
     },
     {
        info: "Neeraj Chopra wins the javelin throw in the final throw.",
@@ -52,7 +52,7 @@ export const sportsNews = [
        category: "sports",
        author: "Paulino Mark",
        topstory:false,
-       img:"./assets/nchopra.jpg"
+       img:"/assets/nchopra.jpg"
     },
     {
       info: "Serena williams qualify for the womens US opens.",
@@ -60,7 +60,7 @@ export const sportsNews = [
       category: "sports",
       author: "Mc smith",
       topstory:false,
-      img:"./assets/serena.jpeg"
+      img:"/assets/serena.jpeg"
    },
    {
       info: "Chaos as talks of super league begins.",
@@ -68,7 +68,7 @@ export const sportsNews = [
       category: "sports",
       author: "John Doe",
       topstory:false,
-      img:"./assets/superleague.webp"
+      img:"/assets/superleague.webp"
    },
    {
       info: "Lebron James to announce his retirement soon.",
@@ -76,7 +76,7 @@ export const sportsNews = [
       category: "sports",
       author: "Kazmerack atinov",
       topstory:false,
-      img:"./assets/lebron.jpg"
+      img:"/assets/lebron.jpg"
    },
    {
       info: "kipchoge wins 7th record marathon.",
@@ -84,7 +84,7 @@ export const sportsNews = [
       category: "sports",
       author: "Paul kurukame",
       topstory:false,
-      img:"./assets/kipchoge.jpg"
+      img:"/assets/kipchoge.jpg"
    }
     
 ]
@@ -96,7 +96,7 @@ export const entertainmentNews = [
       category: "entertainment",
       author: "Clark Ma",
       topstory:false,
-      img:"./assets/rema.jpg"
+      img:"/assets/rema.jpg"
    },
    {
        info: "Beyonce and Jayz said to be having issues.",
@@ -104,7 +104,7 @@ export const entertainmentNews = [
        category: "entertainment",
        author: "Jean Paul Hauge",
        topstory:true,
-       img:"./assets/beyjay.jpg"
+       img:"/assets/beyjay.jpg"
     },
     {
        info: "Harry potter returning for a new movie sequel in 2024.",
@@ -112,7 +112,7 @@ export const entertainmentNews = [
        category: "entertainment",
        author: "Jay Jay Okocha",
        topstory:false,
-       img:"./assets/harrypotter.jpg"
+       img:"/assets/harrypotter.jpg"
     },
     {
        info: "Avatar the last airbender to be shown live on HBC in early 2025.",
@@ -120,7 +120,7 @@ export const entertainmentNews = [
        category: "entertainment",
        author: "Paulino Mark",
        topstory:false,
-       img:"./assets/avatar.jpg"
+       img:"/assets/avatar.jpg"
     },
     {
       info: "Top celebrities of 2023.",
@@ -128,7 +128,7 @@ export const entertainmentNews = [
       category: "entertainment",
       author: "Mc smith",
       topstory:false,
-      img:"./assets/celebrities.jpg"
+      img:"/assets/celebrities.jpg"
    },
    {
       info: "Why disney needs to promote more franchises?.",
@@ -136,7 +136,7 @@ export const entertainmentNews = [
       category: "entertainment",
       author: "John Doe",
       topstory:false,
-      img:"./assets/disney.png"
+      img:"/assets/disney.png"
    },
    {
       info: "Where does Netflix go from now?.",
@@ -144,7 +144,7 @@ export const entertainmentNews = [
       category: "entertainment",
       author: "Kazmerack atinov",
       topstory:false,
-      img:"./assets/netflix.jpg"
+      img:"/assets/netflix.jpg"
    },
    {
       info: "Top blockbuster movies of 2023 so far.",
@@ -152,7 +152,7 @@ export const entertainmentNews = [
       category: "entertainment",
       author: "Paul kurukame",
       topstory:false,
-      img:"./assets/blockbuster.webp"
+      img:"/assets/blockbuster.webp"
    }
     
 ]
@@ -164,7 +164,7 @@ export const businessNews = [
       category: "business",
       author: "Clark Ma",
       topstory:false,
-      img:"./assets/tesla.jpg"
+      img:"/assets/tesla.jpg"
    },
    {
        info: "Adobe completes acquisition of figma.inc.",
@@ -172,7 +172,7 @@ export const businessNews = [
        category: "business",
        author: "Jean Paul Hauge",
        topstory:true,
-       img:"./assets/adobe.jpg"
+       img:"/assets/adobe.jpg"
     },
     {
        info: "Companies to look out for in 2023.",
@@ -180,7 +180,7 @@ export const businessNews = [
        category: "business",
        author: "Jay Jay Okocha",
        topstory:false,
-       img:"./assets/topcomp.png"
+       img:"/assets/topcomp.png"
     },
     {
        info: "Top startups to watch in 2024.",
@@ -188,7 +188,7 @@ export const businessNews = [
        category: "business",
        author: "Paulino Mark",
        topstory:false,
-       img:"./assets/topstartups.jpg"
+       img:"/assets/topstartups.jpg"
     },
     {
       info: "Walmart looking to expand as it forsees growth in the future.",
@@ -196,7 +196,7 @@ export const businessNews = [
       category: "business",
       author: "Mc smith",
       topstory:false,
-      img:"./assets/walmart.jpg"
+      img:"/assets/walmart.jpg"
    },
    {
       info: "African businesses looking for funding, slow growth inevitable.",
@@ -204,7 +204,7 @@ export const businessNews = [
       category: "business",
       author: "John Doe",
       topstory:false,
-      img:"./assets/afribiz.jpg"
+      img:"/assets/afribiz.jpg"
    },
    {
       info: "Amazon and its business model proving freightning for regulators.",
@@ -212,7 +212,7 @@ export const businessNews = [
       category: "business",
       author: "Kazmerack atinov",
       topstory:false,
-      img:"./assets/amazon.png"
+      img:"/assets/amazon.png"
    },
    {
       info: "Key sectors that have fallen far below .",
@@ -220,7 +220,7 @@ export const businessNews = [
       category: "business",
       author: "Paul kurukame",
       topstory:false,
-      img:"./assets/compfallen.jpeg"
+      img:"/assets/compfallen.jpeg"
    }
     
 ]
